@@ -293,23 +293,6 @@
     gtag('config', 'G-8EWFE88XHS');
   </script>
 
-<div id="gdpr-thing">
-  We use third party cookies to analyze site traffic. [ <a id="consent-button" href="">Ok</a> ]
-</div>
-<script type="text/javascript">
-  // On page load
-    window.addEventListener('load', (event) => {
-        // Check if already accepted before, hide banner
-        if (localStorage.getItem('gdpr-accept')==='ok'){
-            document.getElementById("gdpr-thing").style.display='none';
-        }
-    
-      // If accept, hide banner and remeber choice
-      document.getElementById("consent-button").onclick = function() {
-        document.getElementById("gdpr-thing").style.display='none';
-        localStorage.setItem('gdpr-accept', 'ok');
-      };
-    });
-</script>
+
   </body>
 </html>
