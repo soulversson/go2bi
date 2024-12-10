@@ -196,9 +196,9 @@ h1, h2, h3, h4, h5,
     height: 200px;
     left: -10%;
     background: #f2f2f2;
-    -webkit-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg);
+    -webkit-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
     content: "";
     position: absolute;
     bottom: -100px; }
@@ -569,12 +569,4 @@ textarea {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-    #gdpr-thing{
-      position: fixed;
-    bottom: 10px;
-    background: whitesmoke;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 5px;
-    padding: 5px;
-    }
+ 
